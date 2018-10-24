@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{86901E90-2A17-B86B-9229-627A643A6719}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/UISkillCheckSystem.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UI/UISkillCheckSystem.cs" Line="161" Column="1" />
+      <File FileName="Assets/Scripts/Unit.cs" Line="16" Column="31" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="38" Column="47" />
+      <File FileName="Assets/Scripts/UI/UIProgressBar.cs" Line="5" Column="31" />
+      <File FileName="Assets/Scripts/UI/UIZone.cs" Line="106" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor-firstpass PreferredExecutionTarget="Unity.Editor" />
+</Properties>
