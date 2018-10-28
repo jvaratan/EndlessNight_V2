@@ -12,8 +12,8 @@ public class PlatformerPlayer : MonoBehaviour {
     private float m_accelerationTimeAirbone = .2f;
     private float m_accelerationTimeGrounded = .1f;
 
-    [SerializeField] private float m_jumpHeight = 4;
-    [SerializeField] private float m_timeToJumpApex = .4f; // How long to make player to reach the high point
+    public float JumpHeight = 4;
+    public float TimeToJumpApex = .4f; // How long to make player to reach the high point
 
     private Vector3 m_velocity;
 
@@ -28,8 +28,8 @@ public class PlatformerPlayer : MonoBehaviour {
 
     void Start ()
     {
-        m_gravity = -(2 * m_jumpHeight) / Mathf.Pow(m_timeToJumpApex, 2);
-        m_jumpVelocity = Mathf.Abs(m_gravity * m_timeToJumpApex);
+        m_gravity = -(2 * JumpHeight) / Mathf.Pow(TimeToJumpApex, 2);
+        m_jumpVelocity = Mathf.Abs(m_gravity * TimeToJumpApex);
 
 	}
 	

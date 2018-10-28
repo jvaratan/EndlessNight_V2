@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224305865213592402}
   - component: {fileID: 114245193133603274}
+  - component: {fileID: 114679486211319838}
   m_Layer: 5
   m_Name: UISkillCheckSystem_Canvas
   m_TagString: Untagged
@@ -237,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a310e3d7afcae854bb094c85a7185b84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 0}
+  m_target: {fileID: 0}
   m_bar: {fileID: 114330965654898132}
   m_greatZone: {fileID: 114633792892387682}
   m_perfectZone: {fileID: 114362465193965360}
@@ -287,6 +288,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_rangeMin: 0.08
   m_reduceSizePercentage: 5
+--- !u!114 &114679486211319838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109105512407934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb679f9a5d53427f853788035c0df15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 0}
+  Offset: {x: 0, y: 0, z: 0}
+  UseMainCamera: 1
+  CameraToUse: {fileID: 0}
 --- !u!114 &114762835559268540
 MonoBehaviour:
   m_ObjectHideFlags: 1
